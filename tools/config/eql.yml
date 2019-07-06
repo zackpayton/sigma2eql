@@ -1,0 +1,15 @@
+title: EQL field mappings
+order: 20
+backends:
+  - eql
+fieldmappings:
+  EventID: event_id
+  User: user_name
+  CommandLine: command_line
+  ProcessId: pid
+  LogonId: logon_id
+  ParentProcessId: ppid
+  CallTrace: process_call_trace
+  GrantedAccess: process_granted_access
+  TargetImage: process_target_path
+  SourceImage: process_path
